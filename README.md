@@ -65,6 +65,37 @@ Next.js template with TypeScript and Tailwind CSS
 - [Install Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs).  
   In `tailwind.config.js` make sure you use the paths `./src/pages/...` and `./src/components/...`
 
+- - Install [Stylelint](https://stylelint.io/user-guide/get-started) with `stylelint-config-standard-scss`.  
+  - Add [Stylelint vscode extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)  
+  - Config vscode to auto-fix Stylelint problems in `.vscode/settings.json`:
+    ```json
+    {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": true
+      }
+    }
+    ```
+  - Disable vscode's default CSS linting and use Stylelint instead.  
+    In `.vscode/settings.json`:
+    ```json
+    {
+      "css.validate": false,
+      "scss.validate": false,
+      "less.validate": false,
+      "stylelint.validate": ["css", "scss"],
+    }
+    ```
+  - Update `package.json`:
+    ```json
+    {
+      "scripts": {
+        "lint:eslint": "next lint",
+        "lint:stylelint": "stylelint \"src/**/*.{css,scss}\" --ignore-path .gitignore",
+        "lint": "npm run lint:eslint && npm run lint:stylelint"
+      }
+    }
+    ```
+
 <br />
 <br />
 

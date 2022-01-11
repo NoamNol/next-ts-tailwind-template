@@ -4,6 +4,7 @@
 	"recommendations": [
 		// Required:
 		"dbaeumer.vscode-eslint",
+		"stylelint.vscode-stylelint",
 		// Recommended:
 		"bradlc.vscode-tailwindcss",
 		"formulahendry.auto-rename-tag",

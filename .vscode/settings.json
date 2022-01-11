@@ -15,8 +15,15 @@
     // Enable ESLint as a formatter
     "eslint.format.enable": true,
 
+    // Disable vscode's default CSS linting and use Stylelint instead
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false,
+    "stylelint.validate": ["css", "scss"],
+
     // Auto fix on save
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
     }
 }
