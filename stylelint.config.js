@@ -16,6 +16,8 @@ module.exports = {
         'screen',
         'layer',
       ],
-    }]
+    }],
+    'declaration-empty-line-before': null,
+    'shorthand-property-no-redundant-values': null
   }
 }
