@@ -95,6 +95,24 @@ Next.js template with TypeScript and Tailwind CSS
       }
     }
     ```
+  - Config Stylelint to work with Tailwind.  
+    In `stylelint.config.js`:
+    ```javascript
+    module.exports = {
+      rules: {
+        'scss/at-rule-no-unknown': [true, {
+          ignoreAtRules: [
+            'tailwind',
+            'apply',
+            'variants',
+            'responsive',
+            'screen',
+            'layer',
+          ],
+        }]
+      }
+    }
+    ```
 
 <br />
 <br />

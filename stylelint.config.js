@@ -5,5 +5,17 @@ module.exports = {
 
   plugins: [],
 
-  rules: {}
+  rules: {
+    'scss/at-rule-no-unknown': [true, {
+      ignoreAtRules: [
+        // Tailwind words:
+        'tailwind',
+        'apply',
+        'variants',
+        'responsive',
+        'screen',
+        'layer',
+      ],
+    }]
+  }
 }
