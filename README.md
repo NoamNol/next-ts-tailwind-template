@@ -55,6 +55,13 @@ Next.js template with TypeScript and Tailwind CSS
   }
   ```
 
+- Add [Sass Support](https://nextjs.org/docs/basic-features/built-in-css-support#sass-support)
+  with `npm install sass`, and rename `.css` files to `.scss`
+  ```bash
+  git mv src/styles/globals.css src/styles/globals.scss
+  git mv src/styles/Home.module.css src/styles/Home.module.scss
+  ```
+
 <br />
 <br />
 
