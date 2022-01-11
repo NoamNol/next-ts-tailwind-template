@@ -27,23 +27,17 @@ Next.js template with TypeScript and Tailwind CSS
     ```
 
 - Install [Airbnb Style](https://github.com/airbnb/javascript) with `npx install-peerdeps --dev eslint-config-airbnb`  
-  and update .eslintrc:
+  and enhance it with [TypeScript support](https://github.com/iamturns/eslint-config-airbnb-typescript).  
+  Also update eslintrc:
   ```json
   {
     "extends": [
-      "next/core-web-vitals",
-      "airbnb"
+      "airbnb",
+      "airbnb-typescript",
+      "next/core-web-vitals"
     ],
-    "settings": {
-      "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
-      "import/parsers": {
-        "@typescript-eslint/parser": [".ts", ".tsx"]
-      },
-      "import/resolver": {
-        "node": {
-          "extensions": [".js", ".jsx", ".ts", ".tsx"]
-        }
-      }
+    "parserOptions": {
+      "project": "./tsconfig.json"
     },
     "rules": {}
   }
