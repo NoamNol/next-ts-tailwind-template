@@ -43,6 +43,8 @@ Next.js template with TypeScript and Tailwind CSS
   }
   ```
 
+- Add `.vscode/extensions.json` file (and install the extensions)
+
 <br />
 <br />
 
