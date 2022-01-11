@@ -1,0 +1,14 @@
+{
+    // Insert a final new line at the end of the file when saving it
+    "files.insertFinalNewline": true,
+
+    // Trim Trailing Whitespace
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        // Don't trim trailing whitespace in markdown
+        "files.trimTrailingWhitespace": false
+    },
+
+    // Default tab size
+    "editor.tabSize": 2
+}
