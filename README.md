@@ -3,6 +3,28 @@ Next.js template with TypeScript and Tailwind CSS
 
 ## Steps:
 - Init with `npx create-next-app@latest --ts` (See [Next.js with TypeScript](https://nextjs.org/docs/basic-features/typescript))
+- Move code to `src` folder and add `@` paths
+  - Move files:
+    ```bash
+    mkdir src
+    git mv pages src/
+    git mv styles src/
+    ```
+  - Update `tsconfig.json`:
+    ```json
+    {
+      "compilerOptions": {
+        // ...
+        "baseUrl": ".",
+        "paths": {
+          "@/*": ["./src/*"],
+          "@/public/*": ["./public/*"]
+        }
+      },
+      "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx"]
+    }
+
+    ```
 
 <br />
 <br />
