@@ -7,5 +7,10 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/semi": ["error", "never"],
+    "arrow-body-style": "off",
+    "react/function-component-definition": ["warn", { "namedComponents": "arrow-function" }],
+    "react/jsx-one-expression-per-line": "off"
+  }
 }
