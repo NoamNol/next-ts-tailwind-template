@@ -17,7 +17,6 @@
 
     // Auto fix on save
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.organizeImports": true
+        "source.fixAll.eslint": true
     }
 }
