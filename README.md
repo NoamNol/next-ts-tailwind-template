@@ -45,6 +45,16 @@ Next.js template with TypeScript and Tailwind CSS
 
 - Add `.vscode/extensions.json` file (and install the extensions)
 
+- Config vscode to auto-fix eslint problems.  
+  Add `.vscode/settings.json` file with:
+  ```json
+  {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  }
+  ```
+
 <br />
 <br />
 

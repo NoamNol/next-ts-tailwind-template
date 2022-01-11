@@ -10,5 +10,14 @@
     },
 
     // Default tab size
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+
+    // Enable ESLint as a formatter
+    "eslint.format.enable": true,
+
+    // Auto fix on save
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true
+    }
 }
