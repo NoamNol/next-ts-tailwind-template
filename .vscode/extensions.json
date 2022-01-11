@@ -5,6 +5,7 @@
 		// Required:
 		"dbaeumer.vscode-eslint",
 		// Recommended:
+		"bradlc.vscode-tailwindcss",
 		"formulahendry.auto-rename-tag",
 		"bierner.markdown-preview-github-styles",
 		"eamodio.gitlens",

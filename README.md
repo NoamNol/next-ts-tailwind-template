@@ -46,7 +46,7 @@ Next.js template with TypeScript and Tailwind CSS
 - Add `.vscode/extensions.json` file (and install the extensions)
 
 - Config vscode to auto-fix eslint problems.  
-  Add `.vscode/settings.json` file with:
+  In `.vscode/settings.json`:
   ```json
   {
     "editor.codeActionsOnSave": {
@@ -61,6 +61,9 @@ Next.js template with TypeScript and Tailwind CSS
   git mv src/styles/globals.css src/styles/globals.scss
   git mv src/styles/Home.module.css src/styles/Home.module.scss
   ```
+
+- [Install Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs).  
+  In `tailwind.config.js` make sure you use the paths `./src/pages/...` and `./src/components/...`
 
 <br />
 <br />
