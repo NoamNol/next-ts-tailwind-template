@@ -8,6 +8,7 @@
 		// Recommended:
 		"bradlc.vscode-tailwindcss",
 		"formulahendry.auto-rename-tag",
+		"burkeholland.simple-react-snippets",
 		"bierner.markdown-preview-github-styles",
 		"eamodio.gitlens",
 		"vscode-icons-team.vscode-icons",
