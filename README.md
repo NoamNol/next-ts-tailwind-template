@@ -1,0 +1,64 @@
+# next-ts-tailwind-template
+Next.js template with TypeScript and Tailwind CSS
+
+## Features
+* Next.js 12
+* React 17
+* TypeScript
+* SCSS
+* ESLint — Find and fix problems in your code
+* Stylelint - Find and fix problems in your CSS
+* No Prettier! — Use [Airbnb Style](https://github.com/airbnb/javascript) instead and get full control over the code style
+* Path Mapping — Import components or images using the @ prefix
+* [Tailwind CSS 3](https://tailwindcss.com)
+
+
+### About the template
+[Steps to recreate](docs/steps.md)
+
+---
+
+# App Title
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Main Technologies
+* [Next.js](https://nextjs.org)
+  > React framework for production.
+* [Tailwind CSS](https://tailwindcss.com)
+  > Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
+
+## Build Setup
+### Installation
+Install dependencies:
+```bash
+npm ci
+```
+Or install and update dependencies (update package-lock):
+```bash
+npm install
+```
+
+### Launch development server
+Serve with hot reload at [http://localhost:3000](http://localhost:3000)
+```bash
+npm run dev
+```
+
+### Lint
+Find lint problems:
+```bash
+npm run lint
+```
+
+## Development Tools
+### VSCode extensions
+Use the `Extensions: Show Recommended Extensions` command to see the recommended extensions in VSCode.
+
+### Browser extension
+[React Developer Tools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
+## API
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
