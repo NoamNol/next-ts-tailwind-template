@@ -3,6 +3,7 @@ Next.js template with TypeScript and Tailwind CSS
 
 ## Steps:
 - Init with `npx create-next-app@latest --ts` (See [Next.js with TypeScript](https://nextjs.org/docs/basic-features/typescript))
+
 - Move code to `src` folder and add `@` paths
   - Move files:
     ```bash
@@ -23,8 +24,30 @@ Next.js template with TypeScript and Tailwind CSS
       },
       "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx"]
     }
-
     ```
+
+- Install [Airbnb Style](https://github.com/airbnb/javascript) with `npx install-peerdeps --dev eslint-config-airbnb`  
+  and update .eslintrc:
+  ```json
+  {
+    "extends": [
+      "next/core-web-vitals",
+      "airbnb"
+    ],
+    "settings": {
+      "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+      "import/parsers": {
+        "@typescript-eslint/parser": [".ts", ".tsx"]
+      },
+      "import/resolver": {
+        "node": {
+          "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        }
+      }
+    },
+    "rules": {}
+  }
+  ```
 
 <br />
 <br />
