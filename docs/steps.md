@@ -24,6 +24,8 @@
     }
     ```
 
+- Install [typescript-plugin-css-modules](https://github.com/mrmckeb/typescript-plugin-css-modules#installation) for better IDE experience with CSS Modules
+
 - Install [Airbnb Style](https://github.com/airbnb/javascript) with `npx install-peerdeps --dev eslint-config-airbnb`  
   and enhance it with [TypeScript support](https://github.com/iamturns/eslint-config-airbnb-typescript).  
   Also update eslintrc:

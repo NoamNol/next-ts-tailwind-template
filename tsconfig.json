@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "plugins": [
+      // See https://github.com/mrmckeb/typescript-plugin-css-modules#installation
+      { "name": "typescript-plugin-css-modules" }
+    ],
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
