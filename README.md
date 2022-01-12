@@ -4,23 +4,21 @@ Next.js template with TypeScript and Tailwind CSS
 ## Features
 * Next.js 12
 * React 17
+* Tailwind CSS 3
 * TypeScript
 * SCSS
 * ESLint — Find and fix problems in your code
-* Stylelint - Find and fix problems in your CSS
+* Stylelint — Find and fix problems in your CSS
 * No Prettier! — Use [Airbnb Style](https://github.com/airbnb/javascript) instead and get full control over the code style
 * Path Mapping — Import components or images using the @ prefix
-* [Tailwind CSS 3](https://tailwindcss.com)
 
-
-### About the template
-[Steps to recreate](docs/steps.md)
+[Steps to recreate the template](docs/steps.md)
 
 ---
 
 # App Title
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Some description about the app.
 
 ## Main Technologies
 * [Next.js](https://nextjs.org)
