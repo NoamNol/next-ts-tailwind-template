@@ -113,3 +113,5 @@
       }
     }
     ```
+
+- Install [axios](https://github.com/axios/axios) and set api architecture

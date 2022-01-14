@@ -16,6 +16,7 @@ module.exports = {
     ...a11yOff, // (remove this line if you want the a11y plugin)
     "@typescript-eslint/semi": ["error", "never"],
     "arrow-body-style": "off",
+    "import/prefer-default-export": "off",
     "react/function-component-definition": ["warn", { "namedComponents": "arrow-function" }],
     "react/destructuring-assignment": "off",
     "react/prefer-stateless-function": "off",
