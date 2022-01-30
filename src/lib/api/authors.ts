@@ -1,5 +1,5 @@
 import useSWR from 'swr'
-import type { Author } from '@/lib//models/author'
+import type { Author } from '@/lib/models/author'
 import client from './client'
 
 /* getAuthors - get all authors */
