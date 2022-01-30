@@ -15,6 +15,9 @@
     // Default end of line to LF
     "files.eol": "\n",
 
+    // Native bracket pair colors
+    "editor.bracketPairColorization.enabled": true,
+
     // Enable ESLint as a formatter
     "eslint.format.enable": true,
 
