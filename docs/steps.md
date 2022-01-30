@@ -65,7 +65,8 @@
 - [Install Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs).  
   In `tailwind.config.js` make sure you use the paths `./src/pages/...` and `./src/components/...`
 
-- - Install [Stylelint](https://stylelint.io/user-guide/get-started) with `stylelint-config-standard-scss`.  
+- Stylelint:
+  - Install [Stylelint](https://stylelint.io/user-guide/get-started) with `stylelint-config-standard-scss`
   - Add [Stylelint vscode extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)  
   - Config vscode to auto-fix Stylelint problems in `.vscode/settings.json`:
     ```json
