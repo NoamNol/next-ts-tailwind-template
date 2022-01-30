@@ -12,6 +12,9 @@
     // Default tab size
     "editor.tabSize": 2,
 
+    // Default end of line to LF
+    "files.eol": "\n",
+
     // Enable ESLint as a formatter
     "eslint.format.enable": true,
 
