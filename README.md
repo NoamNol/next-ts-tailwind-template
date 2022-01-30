@@ -11,7 +11,7 @@ Next.js template with TypeScript and Tailwind CSS
 * Stylelint — Find and fix problems in your CSS
 * No Prettier! — Use [Airbnb Style](https://github.com/airbnb/javascript) instead and get full control over the code style
 * Path Mapping — Import components or images using the @ prefix
-* API ready — request and cache your API with axios and SWR
+* API Ready — Request and cache your API with axios and SWR
 
 [Steps to recreate the template](docs/steps.md)
 
