@@ -115,4 +115,4 @@
     }
     ```
 
-- Install [axios](https://github.com/axios/axios) and set api architecture
+- Install [axios](https://github.com/axios/axios) and [SWR](https://swr.vercel.app), and set api architecture
