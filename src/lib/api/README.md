@@ -108,3 +108,36 @@ const MyPage = () => {
   )
 }
 ```
+
+## Helper functions
+### createGETApiEndpoint(keyFunc)
+> Create simple GET endpoint  
+
+Usage:
+* Create GET endpoint:
+  ```typescript
+  const getPosts = createGETApiEndpoint<Post[]>(() => '/posts')
+  ```
+  Which equal to:
+  ```typescript
+  const getPosts = {
+    key: () => '/posts',
+    get() { return client.get<Post[]>(this.key()) },
+    data() { return this.get().then((res) => res.data) },
+  }
+  ```
+
+* Create GET endpoint with arguments:
+  ```typescript
+  type Args = { id: string }
+  const getPost = createGETApiEndpoint<Post, Args>(({ id }) => `/posts/${id}`)
+  ```
+  Which equal to:
+  ```typescript
+  type Args = { id: string }
+  const getPost = {
+    key: ({ id }: Args) => `/posts/${id}`,
+    get(arg: Args) { return client.get<Post>(this.key(arg)) },
+    data(arg: Args) { return this.get(arg).then((res) => res.data) },
+  }
+  ```
