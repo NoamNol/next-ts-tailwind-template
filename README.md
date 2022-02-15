@@ -51,6 +51,12 @@ Find lint problems:
 npm run lint
 ```
 
+## API
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/posts](http://localhost:3000/api/posts).  
+This endpoint can be edited in `pages/api/posts/index.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
 ## Docker
 Build and run docker (listen on port 3001):
 ```bash
@@ -69,8 +75,3 @@ Use the `Extensions: Show Recommended Extensions` command to see the recommended
 
 ### Browser extension
 [React Developer Tools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-
-## API
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/posts](http://localhost:3000/api/posts). This endpoint can be edited in `pages/api/posts/index.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
