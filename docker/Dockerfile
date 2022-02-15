@@ -1,4 +1,4 @@
-# This Dockerfile inspired by https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile
+# This Dockerfile was inspired by https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile
 
 # 1. Install dependencies only when needed
 FROM node:16-alpine AS deps
@@ -31,11 +31,12 @@ RUN npm build
 FROM node:16-alpine AS runner
 WORKDIR /app
 
-ENV NODE_ENV=production
+ENV NODE_ENV production
 
 # Comment the following line in case you want to enable telemetry during runtime.
 ENV NEXT_TELEMETRY_DISABLED 1
 
+# Creates a non-root user with an explicit UID and adds permission to access the /app folder
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
