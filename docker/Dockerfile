@@ -23,6 +23,10 @@ COPY . .
 # Comment the following line in case you want to enable telemetry during the build.
 ENV NEXT_TELEMETRY_DISABLED 1
 
+# Use the corresponding env file for each environment
+ARG DOT_ENV_PRODUCTION_FILE=.env.production
+COPY ${DOT_ENV_PRODUCTION_FILE} .env.production
+
 RUN npm run build
 # If using yarn comment out above and use below instead
 # RUN yarn build
