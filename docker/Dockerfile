@@ -1,4 +1,4 @@
-# This Dockerfile was inspired by https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile
+# This Dockerfile was inspired by https://github.com/vercel/next.js/tree/canary/examples/with-docker
 
 # 1. Install dependencies only when needed
 FROM node:16-alpine AS deps
