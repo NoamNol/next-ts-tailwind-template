@@ -51,8 +51,14 @@ Find lint problems:
 npm run lint
 ```
 
-## Production
+## Docker
 Build and run docker (listen on port 3001):
+```bash
+docker build -t next-app:latest . -f docker/Dockerfile
+docker run --rm -it -p 3001:3000 --name the-next-app next-app:latest
+```
+
+Or with docker-compose:
 ```bash
 docker-compose -f docker/docker-compose.yml -p next-app up -d
 ```
