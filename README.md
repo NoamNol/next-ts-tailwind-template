@@ -12,6 +12,7 @@ Next.js template with TypeScript and Tailwind CSS
 * No Prettier! — Use [Airbnb Style](https://github.com/airbnb/javascript) instead and get full control over the code style
 * Path Mapping — Import components or images using the @ prefix
 * API Ready — Request and cache your API with axios and SWR
+* Docker Ready
 
 [Steps to recreate the template](docs/steps.md)
 
@@ -48,6 +49,12 @@ npm run dev
 Find lint problems:
 ```bash
 npm run lint
+```
+
+## Production
+Build and run docker (listen on port 3001):
+```bash
+docker-compose -f docker/docker-compose.yml -p next-app up -d
 ```
 
 ## Development Tools

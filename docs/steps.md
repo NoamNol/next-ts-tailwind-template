@@ -116,3 +116,7 @@
     ```
 
 - Install [axios](https://github.com/axios/axios) and [SWR](https://swr.vercel.app), and set api architecture
+
+- Add `.env` files
+
+- Add Dockerfile and docker-compose
