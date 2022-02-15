@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  next-app:
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+      args:
+        DOT_ENV_PRODUCTION_FILE: .env.production
+    image: next-app-production
+    ports:
+      - '3001:3000'
