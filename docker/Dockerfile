@@ -23,7 +23,7 @@ COPY . .
 # Comment the following line in case you want to enable telemetry during the build.
 ENV NEXT_TELEMETRY_DISABLED 1
 
-RUN npm build
+RUN npm run build
 # If using yarn comment out above and use below instead
 # RUN yarn build
 
