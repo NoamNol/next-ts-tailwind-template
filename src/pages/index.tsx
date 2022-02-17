@@ -33,6 +33,8 @@ const Home: NextPage = () => {
           </ul>
         </div>
 
+        <code>API URL: {process.env.NEXT_PUBLIC_API_URL}</code>
+
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>

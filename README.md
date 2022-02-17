@@ -12,6 +12,7 @@ Next.js template with TypeScript and Tailwind CSS
 * No Prettier! — Use [Airbnb Style](https://github.com/airbnb/javascript) instead and get full control over the code style
 * Path Mapping — Import components or images using the @ prefix
 * API Ready — Request and cache your API with axios and SWR
+* Docker Ready
 
 [Steps to recreate the template](docs/steps.md)
 
@@ -50,14 +51,27 @@ Find lint problems:
 npm run lint
 ```
 
+## API
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/posts](http://localhost:3000/api/posts).  
+This endpoint can be edited in `pages/api/posts/index.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Docker
+Build and run docker (listen on port 3001):
+```bash
+docker build -t nextjs-app:latest . -f docker/Dockerfile
+docker run --rm -it -p 3001:3000 --name the-nextjs-app nextjs-app:latest
+```
+
+Or with docker-compose:
+```bash
+docker-compose -f docker/docker-compose.yml -p nextjs-app up -d
+```
+
 ## Development Tools
 ### VSCode extensions
 Use the `Extensions: Show Recommended Extensions` command to see the recommended extensions in VSCode.
 
 ### Browser extension
 [React Developer Tools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-
-## API
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/posts](http://localhost:3000/api/posts). This endpoint can be edited in `pages/api/posts/index.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
