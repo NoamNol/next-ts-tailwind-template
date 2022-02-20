@@ -40,7 +40,7 @@ ENV NODE_ENV production
 # Comment the following line in case you want to enable telemetry during runtime.
 ENV NEXT_TELEMETRY_DISABLED 1
 
-# Creates a non-root user with an explicit UID and adds permission to access the /app folder
+# Create a non-root user with an explicit UID and add permission to access the /app folder
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
