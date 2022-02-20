@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci
 
-# If using npm with a `yarn.lock` comment out above and use below instead
+# If using yarn comment out above and use below instead
 # COPY package.json yarn.lock ./
 # RUN yarn install --frozen-lockfile
 
