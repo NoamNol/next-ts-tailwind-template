@@ -61,7 +61,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 Build and run docker (listen on port 3001):
 ```bash
 docker build -t nextjs-app:latest . -f docker/Dockerfile
-docker run --rm -it -p 3001:3000 --name the-nextjs-app nextjs-app:latest
+docker run -d -p 3001:3000 --name the-nextjs-app nextjs-app:latest
 ```
 
 Or with docker-compose:
