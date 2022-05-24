@@ -4,11 +4,12 @@
 FROM node:16-alpine AS deps
 # Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
 RUN apk add --no-cache libc6-compat
+RUN npm install -g npm@latest
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci
 
-# If using npm with a `yarn.lock` comment out above and use below instead
+# If using yarn comment out above and use below instead
 # COPY package.json yarn.lock ./
 # RUN yarn install --frozen-lockfile
 
@@ -40,7 +41,7 @@ ENV NODE_ENV production
 # Comment the following line in case you want to enable telemetry during runtime.
 ENV NEXT_TELEMETRY_DISABLED 1
 
-# Creates a non-root user with an explicit UID and adds permission to access the /app folder
+# Create a non-root user with an explicit UID and add permission to access the /app folder
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
