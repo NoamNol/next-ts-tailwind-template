@@ -117,6 +117,8 @@
 
 - Install [axios](https://github.com/axios/axios) and [SWR](https://swr.vercel.app), and set api architecture
 
+- Install [lodash](https://lodash.com) with `npm install lodash` and `npm install --save-dev @types/lodash`
+
 - Add [.env files](https://nextjs.org/docs/basic-features/environment-variables)
 
 - Add Dockerfile and docker-compose.yml
