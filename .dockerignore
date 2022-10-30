@@ -5,6 +5,8 @@ node_modules
 npm-debug.log
 .next
 .git
+.gitignore
+.ignoreme
 .vscode
 docs
 README.md
