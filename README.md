@@ -66,7 +66,7 @@ docker run -d -p 3001:3000 --name the-nextjs-app nextjs-app:latest
 
 Or with docker-compose:
 ```bash
-docker-compose -f docker/docker-compose.yml -p nextjs-app up -d
+docker-compose -f docker/docker-compose.yml --env-file docker/docker-compose.env -p nextjs-app up -d
 ```
 
 ## Development Tools
