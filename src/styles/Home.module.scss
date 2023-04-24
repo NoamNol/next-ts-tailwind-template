@@ -79,7 +79,7 @@
   flex-wrap: wrap;
   max-width: 800px;
 
-  @media (max-width: 600px) {
+  @media (width <= 600px) {
     width: 100%;
     flex-direction: column;
   }
