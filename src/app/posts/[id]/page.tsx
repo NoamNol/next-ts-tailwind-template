@@ -1,6 +1,6 @@
+'use client'
+
 import type { NextPage } from 'next'
-import { useRouter } from 'next/router'
-import Head from 'next/head'
 import { usePost } from '@/lib/api/posts'
 
 const PostPage: NextPage = () => {

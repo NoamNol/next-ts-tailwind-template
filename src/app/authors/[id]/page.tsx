@@ -1,6 +1,6 @@
+'use client'
+
 import type { NextPage } from 'next'
-import { useRouter } from 'next/router'
-import Head from 'next/head'
 import { useAuthor } from '@/lib/api/authors'
 
 const AuthorPage: NextPage = () => {
