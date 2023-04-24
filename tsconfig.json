@@ -2,7 +2,8 @@
   "compilerOptions": {
     "plugins": [
       // See https://github.com/mrmckeb/typescript-plugin-css-modules#installation
-      { "name": "typescript-plugin-css-modules" }
+      { "name": "typescript-plugin-css-modules" },
+      { "name": "next" }
     ],
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -25,6 +26,11 @@
       "@/public/*": ["./public/*"]
     }
   },
-  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+  ],
   "exclude": ["node_modules"]
 }
