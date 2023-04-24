@@ -8,9 +8,6 @@ const PostsPage: NextPage = () => {
 
   return (
     <div>
-      <Head>
-        <title>Posts page</title>
-      </Head>
       <div>
         <h1>Posts</h1>
         {loading && <p>Posts are loading...</p>}

@@ -8,9 +8,6 @@ const AuthorsPage: NextPage = () => {
 
   return (
     <div>
-      <Head>
-        <title>Authors page</title>
-      </Head>
       <div>
         <h1>Authors</h1>
         {loading && <p>Authors are loading...</p>}
