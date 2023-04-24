@@ -1,6 +1,7 @@
 # Steps:
 
-- Init with `npx create-next-app@latest --ts` (See [Next.js with TypeScript](https://nextjs.org/docs/basic-features/typescript))
+- Init Next.js with `npx create-next-app@latest --ts` (See [Next.js with TypeScript](https://nextjs.org/docs/basic-features/typescript))
+  > Also see [Next.js Upgrade Guide](https://nextjs.org/docs/upgrading)
 
 - Move code to `src` folder and add `@` paths
   - Move files:

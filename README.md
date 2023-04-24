@@ -2,8 +2,8 @@
 Next.js template with TypeScript and Tailwind CSS
 
 ## Features
-* Next.js 12
-* React 17
+* Next.js 13
+* React 18
 * Tailwind CSS 3
 * TypeScript
 * SCSS
@@ -13,6 +13,9 @@ Next.js template with TypeScript and Tailwind CSS
 * Path Mapping — Import components or images using the @ prefix
 * API Ready — Request and cache your API with axios and SWR
 * Docker Ready
+
+## Requirements
+* Minimum Node.js version: 14.18.0
 
 [Steps to recreate the template](docs/steps.md)
 
