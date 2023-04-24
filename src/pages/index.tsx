@@ -22,12 +22,12 @@ const Home: NextPage = () => {
           <ul>
             <li>
               <Link href="/posts">
-                <a>Posts</a>
+                Posts
               </Link>
             </li>
             <li>
               <Link href="/authors">
-                <a>Authors</a>
+                Authors
               </Link>
             </li>
           </ul>
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
         </a>
       </footer>
     </div>
-  )
+  );
 }
 
 export default Home
