@@ -35,5 +35,6 @@
 
     // Use the workspace version of TypeScript
     // See https://github.com/mrmckeb/typescript-plugin-css-modules#visual-studio-code
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
 }
