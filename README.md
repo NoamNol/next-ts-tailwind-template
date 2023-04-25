@@ -2,7 +2,7 @@
 Next.js template with TypeScript and Tailwind CSS
 
 ## Features
-* Next.js 13
+* Next.js 13 (with the new [`app`](https://beta.nextjs.org/docs/app-directory-roadmap) folder!)
 * React 18
 * Tailwind CSS 3
 * TypeScript
