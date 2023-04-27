@@ -43,7 +43,7 @@ npm install
 ```
 
 ### Launch development server
-Serve with hot reload at [http://localhost:3000](http://localhost:3000)
+Serve with hot reload at [localhost:3000](http://localhost:3000)
 ```bash
 npm run dev
 ```
@@ -55,10 +55,8 @@ npm run lint
 ```
 
 ## API
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/posts](http://localhost:3000/api/posts).  
-This endpoint can be edited in `pages/api/posts/index.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers) can be accessed on `/api/*`, like [/api/posts](http://localhost:3000/api/posts).  
+This endpoint can be edited in `src/app/api/posts/route.ts`.
 
 ## Docker
 Build and run docker (listen on port 3001):
