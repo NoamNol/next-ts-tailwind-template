@@ -64,7 +64,7 @@
   ```
 
 - [Install Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs).  
-  In `tailwind.config.js` make sure you use the paths `./src/pages/...` and `./src/components/...`
+  In `tailwind.config.js` make sure you use the paths `./src/app/...` and `./src/components/...`
 
 - Stylelint:
   - Install [Stylelint](https://stylelint.io/user-guide/get-started) with `stylelint-config-standard-scss`
