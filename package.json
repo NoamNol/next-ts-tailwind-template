@@ -7,7 +7,9 @@
     "start": "next start",
     "lint:eslint": "next lint",
     "lint:stylelint": "stylelint \"src/**/*.{css,scss}\" --ignore-path .gitignore",
-    "lint": "npm run lint:eslint && npm run lint:stylelint"
+    "lint:prettier": "prettier --check --ignore-unknown .",
+    "lint:prettier-fix": "prettier --write --ignore-unknown .",
+    "lint": "npm run lint:eslint && npm run lint:stylelint && npm run lint:prettier"
   },
   "dependencies": {
     "axios": "^1.3.6",
@@ -34,6 +36,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.23",
+    "prettier": "2.8.8",
     "stylelint": "^15.6.0",
     "stylelint-config-standard-scss": "^8.0.0",
     "tailwindcss": "^3.3.1",
