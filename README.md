@@ -62,6 +62,11 @@ Find lint problems:
 npm run lint
 ```
 
+Auto-fix lint problems (be careful):
+```bash
+npm run lint:fix
+```
+
 ## API
 [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers) can be accessed on `/api/*`, like [/api/posts](http://localhost:3000/api/posts).  
 This endpoint can be edited in `src/app/api/posts/route.ts`.
