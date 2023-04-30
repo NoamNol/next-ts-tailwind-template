@@ -17,7 +17,13 @@ Next.js template with TypeScript and Tailwind CSS
 ## Requirements
 * Minimum Node.js version: 14.18.0
 
-[Steps to recreate the template](docs/steps.md)
+## Steps
+
+See: [Steps to recreate this template](docs/steps.md)
+
+## More resources
+* [Vercel: Next.js App Router Playground](https://github.com/vercel/app-playground)
+
 
 ---
 
