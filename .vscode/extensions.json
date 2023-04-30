@@ -2,6 +2,7 @@
 	// About workspace recommendations: https://go.microsoft.com/fwlink/?LinkId=827846
 
 	"recommendations": [
+		"editorconfig.editorconfig",
 		"dbaeumer.vscode-eslint",
 		"stylelint.vscode-stylelint",
 		"bradlc.vscode-tailwindcss",
