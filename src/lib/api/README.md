@@ -93,8 +93,7 @@ export function usePost(arg) {
 // In React component: //
 
 const MyPage = () => {
-  const router = useRouter()
-  const id = router.query.id // string or undefined
+  const id = getId() // string or undefined
   const { post, error, loading } = usePost({ id })
 
   return (

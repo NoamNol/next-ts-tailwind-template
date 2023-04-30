@@ -1,5 +1,6 @@
+'use client'
+
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import { useAuthors } from '@/lib/api/authors'
 
 const AuthorsPage: NextPage = () => {
@@ -7,9 +8,6 @@ const AuthorsPage: NextPage = () => {
 
   return (
     <div>
-      <Head>
-        <title>Authors page</title>
-      </Head>
       <div>
         <h1>Authors</h1>
         {loading && <p>Authors are loading...</p>}

@@ -1,5 +1,6 @@
+'use client'
+
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import { usePosts } from '@/lib/api/posts'
 
 const PostsPage: NextPage = () => {
@@ -7,9 +8,6 @@ const PostsPage: NextPage = () => {
 
   return (
     <div>
-      <Head>
-        <title>Posts page</title>
-      </Head>
       <div>
         <h1>Posts</h1>
         {loading && <p>Posts are loading...</p>}

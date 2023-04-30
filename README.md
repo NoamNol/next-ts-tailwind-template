@@ -2,8 +2,8 @@
 Next.js template with TypeScript and Tailwind CSS
 
 ## Features
-* Next.js 12
-* React 17
+* Next.js 13 (with the new [`app`](https://beta.nextjs.org/docs/app-directory-roadmap) folder!)
+* React 18
 * Tailwind CSS 3
 * TypeScript
 * SCSS
@@ -14,7 +14,16 @@ Next.js template with TypeScript and Tailwind CSS
 * API Ready — Request and cache your API with axios and SWR
 * Docker Ready
 
-[Steps to recreate the template](docs/steps.md)
+## Requirements
+* Minimum Node.js version: 14.18.0
+
+## Steps
+
+See: [Steps to recreate this template](docs/steps.md)
+
+## More resources
+* [Vercel: Next.js App Router Playground](https://github.com/vercel/app-playground)
+
 
 ---
 
@@ -40,7 +49,7 @@ npm install
 ```
 
 ### Launch development server
-Serve with hot reload at [http://localhost:3000](http://localhost:3000)
+Serve with hot reload at [localhost:3000](http://localhost:3000)
 ```bash
 npm run dev
 ```
@@ -52,10 +61,8 @@ npm run lint
 ```
 
 ## API
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/posts](http://localhost:3000/api/posts).  
-This endpoint can be edited in `pages/api/posts/index.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers) can be accessed on `/api/*`, like [/api/posts](http://localhost:3000/api/posts).  
+This endpoint can be edited in `src/app/api/posts/route.ts`.
 
 ## Docker
 Build and run docker (listen on port 3001):

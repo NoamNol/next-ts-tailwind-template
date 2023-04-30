@@ -1,39 +1,40 @@
 {
-    // Insert a final new line at the end of the file when saving it
-    "files.insertFinalNewline": true,
+  // Insert a final new line at the end of the file when saving it
+  "files.insertFinalNewline": true,
 
-    // Trim Trailing Whitespace
-    "files.trimTrailingWhitespace": true,
-    "[markdown]": {
-        // Don't trim trailing whitespace in markdown
-        "files.trimTrailingWhitespace": false
-    },
+  // Trim Trailing Whitespace
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    // Don't trim trailing whitespace in markdown
+    "files.trimTrailingWhitespace": false
+  },
 
-    // Default tab size
-    "editor.tabSize": 2,
+  // Default tab size
+  "editor.tabSize": 2,
 
-    // Default end of line to LF
-    "files.eol": "\n",
+  // Default end of line to LF
+  "files.eol": "\n",
 
-    // Native bracket pair colors
-    "editor.bracketPairColorization.enabled": true,
+  // Native bracket pair colors
+  "editor.bracketPairColorization.enabled": true,
 
-    // Enable ESLint as a formatter
-    "eslint.format.enable": true,
+  // Enable ESLint as a formatter
+  "eslint.format.enable": true,
 
-    // Disable vscode's default CSS linting and use Stylelint instead
-    "css.validate": false,
-    "scss.validate": false,
-    "less.validate": false,
-    "stylelint.validate": ["css", "scss"],
+  // Disable vscode's default CSS linting and use Stylelint instead
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "stylelint.validate": ["css", "scss"],
 
-    // Auto fix on save
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.fixAll.stylelint": true
-    },
+  // Auto fix on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
 
-    // Use the workspace version of TypeScript
-    // See https://github.com/mrmckeb/typescript-plugin-css-modules#visual-studio-code
-    "typescript.tsdk": "node_modules/typescript/lib"
+  // Use the workspace version of TypeScript
+  // See https://github.com/mrmckeb/typescript-plugin-css-modules#visual-studio-code
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
