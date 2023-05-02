@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { PlayWithActiveLink } from '@/components/PlayWithActiveLink'
 import styles from '@/styles/Home.module.scss'
 import type { NextPage } from 'next'
 
@@ -27,6 +28,8 @@ const Home: NextPage = () => {
         </div>
 
         <code>API URL: {process.env.NEXT_PUBLIC_API_URL}</code>
+
+        <PlayWithActiveLink className="my-3" />
 
         <p className={styles.description}>
           Get started by editing{' '}
