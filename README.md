@@ -32,7 +32,8 @@ Next.js template with TypeScript and Tailwind CSS
 ## More Resources
 
 - [Create T3 App](https://create.t3.gg/)
-- [Vercel: Next.js App Router Playground](https://github.com/vercel/app-playground)
+- [superplate](https://pankod.github.io/superplate/)
+- [Vercel: Next.js App Playground](https://vercel.com/templates/next.js/app-directory)
 
 ---
 
