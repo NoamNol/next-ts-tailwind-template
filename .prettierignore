@@ -3,7 +3,6 @@
 *.jsx
 *.ts
 *.tsx
-*.md
 
 # private things to ignore
 **/.ignoreme

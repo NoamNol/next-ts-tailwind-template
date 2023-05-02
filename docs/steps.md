@@ -1,9 +1,11 @@
 # Steps:
 
 - Init Next.js with `npx create-next-app@latest --ts` (See [Next.js with TypeScript](https://nextjs.org/docs/basic-features/typescript))
+
   > Also see [Next.js Upgrade Guide](https://nextjs.org/docs/upgrading)
 
 - Move code to `src` folder and add `@` paths
+
   - Move files:
     ```bash
     mkdir src
@@ -30,13 +32,10 @@
 - Install [Airbnb Style](https://github.com/airbnb/javascript) with `npx install-peerdeps --dev eslint-config-airbnb`  
   and enhance it with [TypeScript support](https://github.com/iamturns/eslint-config-airbnb-typescript).  
   Also update eslintrc:
+
   ```json
   {
-    "extends": [
-      "airbnb",
-      "airbnb-typescript",
-      "next/core-web-vitals"
-    ],
+    "extends": ["airbnb", "airbnb-typescript", "next/core-web-vitals"],
     "parserOptions": {
       "project": "./tsconfig.json"
     },
@@ -48,6 +47,7 @@
 
 - Config VSCode to auto-fix eslint problems.  
   In `.vscode/settings.json`:
+
   ```json
   {
     "editor.codeActionsOnSave": {
@@ -58,6 +58,7 @@
 
 - Add [Sass Support](https://nextjs.org/docs/basic-features/built-in-css-support#sass-support)
   with `npm install sass`, and rename `.css` files to `.scss`
+
   ```bash
   git mv src/styles/globals.css src/styles/globals.scss
   git mv src/styles/Home.module.css src/styles/Home.module.scss
@@ -67,6 +68,7 @@
   In `tailwind.config.js` make sure you use the paths `./src/app/...` and `./src/components/...`
 
 - Stylelint:
+
   - Install [Stylelint](https://stylelint.io/user-guide/get-started) with `stylelint-config-standard-scss`
   - Add [Stylelint VSCode extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
   - Config VSCode to auto-fix Stylelint problems in `.vscode/settings.json`:
@@ -84,7 +86,7 @@
       "css.validate": false,
       "scss.validate": false,
       "less.validate": false,
-      "stylelint.validate": ["css", "scss"],
+      "stylelint.validate": ["css", "scss"]
     }
     ```
   - Update `package.json`:
@@ -102,17 +104,20 @@
     ```javascript
     module.exports = {
       rules: {
-        'scss/at-rule-no-unknown': [true, {
-          ignoreAtRules: [
-            'tailwind',
-            'apply',
-            'variants',
-            'responsive',
-            'screen',
-            'layer',
-          ],
-        }]
-      }
+        'scss/at-rule-no-unknown': [
+          true,
+          {
+            ignoreAtRules: [
+              'tailwind',
+              'apply',
+              'variants',
+              'responsive',
+              'screen',
+              'layer',
+            ],
+          },
+        ],
+      },
     }
     ```
 

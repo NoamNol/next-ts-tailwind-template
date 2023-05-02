@@ -3,7 +3,7 @@
   "eslint.format.enable": true,
 
   // Enable Prettier as a formatter for css files (in addition to Stylelint linting)
-  "[css][scss]": {
+  "[css][scss][markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
   },
