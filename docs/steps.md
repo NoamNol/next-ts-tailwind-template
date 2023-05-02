@@ -134,6 +134,7 @@
     }
     ```
 
+- Install [clsx](https://github.com/lukeed/clsx) to toggle classes. See [Next.js Styling Tips](https://nextjs.org/learn/basics/assets-metadata-css/styling-tips)
 - Install [axios](https://github.com/axios/axios) and [SWR](https://swr.vercel.app), and set api architecture
 
 - Install [lodash](https://lodash.com) with `npm install lodash` and `npm install --save-dev @types/lodash`

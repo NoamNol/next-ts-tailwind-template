@@ -15,8 +15,9 @@ Next.js template with TypeScript and Tailwind CSS
 - ✅️ No Prettier on JS/TS code! — Use ESLint + [Airbnb Style](https://github.com/airbnb/javascript) instead and
   get full control over the code style
 - ✅️ Path Mapping — Import components or images using the @ prefix
-- ✅️ API Ready — Request and cache your API with axios and SWR
 - ✅️ Docker Ready
+- ✅️ API Ready — Request and cache your API with axios and SWR
+- ✅️ Useful libs like [clsx](https://github.com/lukeed/clsx) and [lodash](https://lodash.com)
 
 ## Requirements
 
