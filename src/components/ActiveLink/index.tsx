@@ -15,9 +15,9 @@ export const ActiveLink: React.FC<{
   return (
     <Link
       className={clsx('rounded-lg px-3 py-1 text-sm font-medium no-underline', {
-        'bg-gray-700 text-gray-100 hover:bg-gray-500 hover:text-white noActive':
+        'bg-gray-700 text-gray-100 hover:bg-gray-500 hover:text-white':
           !isActive,
-        'bg-[#0070F3] text-white yesActive': isActive,
+        'bg-[#0070F3] text-white': isActive,
       })}
       href={`${pathname}?${searchParams}`}
     >

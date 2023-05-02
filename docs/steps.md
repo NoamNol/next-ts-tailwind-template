@@ -64,8 +64,11 @@
   git mv src/styles/Home.module.css src/styles/Home.module.scss
   ```
 
-- [Install Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs).  
-  In `tailwind.config.js` make sure you use the paths `./src/app/...` and `./src/components/...`
+- Tailwind CSS:
+
+  - [Install Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs).
+  - In `tailwind.config.js` make sure you use the paths `./src/app/...` and `./src/components/...`
+  - Install formatter for Tailwind classes: [Tailwind CSS Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
 - Stylelint:
 
