@@ -1,5 +1,5 @@
-import type { AxiosResponse } from 'axios'
 import client from './client'
+import type { AxiosResponse } from 'axios'
 
 type KeyFunc<TArg> = (arg: TArg) => string
 

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
-import type { Post } from '@/lib/models/post'
 import postsData from '@/assets/fakedata/posts.json'
+import type { Post } from '@/lib/models/post'
 
 export async function GET(request: Request, { params }: {
   params: { id: string }

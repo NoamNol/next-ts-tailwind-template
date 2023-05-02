@@ -1,7 +1,7 @@
 'use client'
 
-import type { NextPage } from 'next'
 import { useEffect } from 'react'
+import type { NextPage } from 'next'
 
 const Custom404: NextPage<{
   error: Error;

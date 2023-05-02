@@ -1,6 +1,6 @@
 import useSWR from 'swr'
-import type { Post } from '@/lib/models/post'
 import { createGETApiEndpoint } from '@/lib/api/endpointGenerators'
+import type { Post } from '@/lib/models/post'
 
 /**
  * Get all posts

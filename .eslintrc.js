@@ -17,6 +17,10 @@ module.exports = {
     "@typescript-eslint/semi": ["error", "never"],
     "arrow-body-style": "off",
     "import/prefer-default-export": "off",
+    "import/order": ["error", {
+      "alphabetize": {"order": "asc", "caseInsensitive": true},
+      "groups": ["builtin", "external", "internal", ["parent", "sibling"], "index", "object", "type"]
+    }],
     "react/function-component-definition": ["warn", { "namedComponents": "arrow-function" }],
     "react/destructuring-assignment": "off",
     "react/prefer-stateless-function": "off",

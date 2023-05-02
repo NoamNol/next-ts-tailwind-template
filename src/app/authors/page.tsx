@@ -1,7 +1,7 @@
 'use client'
 
-import type { NextPage } from 'next'
 import { useAuthors } from '@/lib/api/authors'
+import type { NextPage } from 'next'
 
 const AuthorsPage: NextPage = () => {
   const { authors, error, loading } = useAuthors()

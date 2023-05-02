@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
-import type { Author } from '@/lib/models/author'
 import authorsData from '@/assets/fakedata/authors.json'
+import type { Author } from '@/lib/models/author'
 
 export async function GET(request: Request, { params }: {
   params: { id: string }

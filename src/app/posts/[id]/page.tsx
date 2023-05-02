@@ -1,7 +1,7 @@
 'use client'
 
-import type { NextPage } from 'next'
 import { usePost } from '@/lib/api/posts'
+import type { NextPage } from 'next'
 
 const PostPage: NextPage<{ params: { id: string } }> = ({ params }) => {
   const { id } = params
