@@ -113,4 +113,4 @@ Use the `Extensions: Show Recommended Extensions` command to see the recommended
 
 ### Browser extension
 
-[React Developer Tools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+[React Developer Tools](https://react.dev/learn/react-developer-tools)
