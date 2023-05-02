@@ -2,28 +2,27 @@
 Next.js template with TypeScript and Tailwind CSS
 
 ## Features
-* Next.js 13 (with the new [`app`](https://beta.nextjs.org/docs/app-directory-roadmap) folder!)
-* React 18
-* Tailwind CSS 3
-* TypeScript
-* SCSS
-* ESLint — Find and fix problems in your code
-* Stylelint — Find and fix problems in your CSS
-* Prettier — Format your CSS
-* No Prettier on code! — Use [Airbnb Style](https://github.com/airbnb/javascript) instead and get full control over the code style
+* ✅️ Next.js 13 (with the new [`app`](https://beta.nextjs.org/docs/app-directory-roadmap) folder!)
+* ✅️ React 18
+* ✅️ Tailwind CSS 3
+* ✅️ TypeScript
+* ✅️ SCSS
+* ✅️ ESLint — Find and fix problems in your code
+* ✅️ Stylelint — Find and fix problems in your CSS
+* ✅️ Prettier — Format your CSS
+* ✅️ No Prettier on code! — Use [Airbnb Style](https://github.com/airbnb/javascript) instead and get full control over the code style
   in TS/JS files
-* Path Mapping — Import components or images using the @ prefix
-* API Ready — Request and cache your API with axios and SWR
-* Docker Ready
+* ✅️ Path Mapping — Import components or images using the @ prefix
+* ✅️ API Ready — Request and cache your API with axios and SWR
+* ✅️ Docker Ready
 
 ## Requirements
 * Minimum Node.js version: 14.18.0
 
 ## Steps
+* [Steps to recreate this template](docs/steps.md)
 
-See: [Steps to recreate this template](docs/steps.md)
-
-## More resources
+## More Resources
 * [Create T3 App](https://create.t3.gg/)
 * [Vercel: Next.js App Router Playground](https://github.com/vercel/app-playground)
 
