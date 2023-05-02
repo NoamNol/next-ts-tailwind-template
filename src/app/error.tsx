@@ -4,8 +4,8 @@ import { useEffect } from 'react'
 import type { NextPage } from 'next'
 
 const Custom404: NextPage<{
-  error: Error;
-  reset: () => void;
+  error: Error
+  reset: () => void
 }> = ({ error, reset }) => {
   useEffect(() => {
     // eslint-disable-next-line no-console

@@ -18,6 +18,6 @@ module.exports = {
       ],
     }],
     'declaration-empty-line-before': null,
-    'shorthand-property-no-redundant-values': null
-  }
+    'shorthand-property-no-redundant-values': null,
+  },
 }

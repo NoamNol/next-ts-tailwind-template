@@ -6,9 +6,9 @@ import { usePathname } from 'next/navigation'
 import type React from 'react'
 
 export const ActiveLink: React.FC<{
-  isActive: boolean;
-  searchParams: string;
-  children: React.ReactNode;
+  isActive: boolean
+  searchParams: string
+  children: React.ReactNode
 }> = ({ isActive, searchParams, children }) => {
   const pathname = usePathname()
 
