@@ -10,11 +10,9 @@ Next.js template with TypeScript and Tailwind CSS
 - ✅️ TypeScript
 - ✅️ SCSS
 - ✅️ [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css) (Next.js built-in)
-- ✅️ ESLint — Find and fix problems in your code
+- ✅️ ESLint + [Airbnb Style](https://github.com/airbnb/javascript) — Find and fix problems in your code
 - ✅️ Stylelint — Find and fix problems in your CSS
-- ✅️ Prettier — Format your CSS and assets
-- ✅️ No Prettier on JS/TS code! — Use ESLint + [Airbnb Style](https://github.com/airbnb/javascript) instead and
-  get full control over the code style
+- ✅️ Prettier — Format your code and assets
 - ✅️ EditorConfig - Consistent indents across editors and IDEs
 - ✅️ Path Mapping — Import components or images using the @ prefix
 - ✅️ Docker Ready

@@ -1,8 +1,4 @@
 *.json
-*.js
-*.jsx
-*.ts
-*.tsx
 
 # private things to ignore
 **/.ignoreme

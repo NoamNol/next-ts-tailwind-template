@@ -7,7 +7,8 @@ module.exports = {
   "extends": [
     "airbnb",
     "airbnb-typescript",
-    "next/core-web-vitals"
+    "next/core-web-vitals",
+    'prettier', // must be last, to turn off all rules that can conflict with Prettier
   ],
   "parserOptions": {
     "project": "./tsconfig.json"

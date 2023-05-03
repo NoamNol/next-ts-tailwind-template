@@ -128,6 +128,10 @@
 
   - Install [Prettier](https://prettier.io/) with `npm install --save-dev --save-exact prettier`
   - Add `.prettierrc.js` and `.prettierignore` files
+  - Install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+    and add it to ESLint config to make ESLint and Prettier work together.  
+    See [Next.js Usage With Prettier](https://nextjs.org/docs/basic-features/eslint#prettier)
+    and [Prettier: Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html)
   - Add [Prettier VSCode extension](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.prettier-vscode)
   - Config VSCode to auto-format CSS files with Prettier in `.vscode/settings.json`:
     ```json
