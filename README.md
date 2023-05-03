@@ -1,10 +1,10 @@
 # next-ts-tailwind-template
 
-Next.js template with TypeScript and Tailwind CSS
+Next.js template with TypeScript, Tailwind, best linters and more.
 
 ## Features
 
-- ✅️ Next.js 13 (with the new [`app`](https://beta.nextjs.org/docs/app-directory-roadmap) folder!)
+- ✅️ Next.js 13 (with the new [`app`](https://beta.nextjs.org/docs/app-directory-roadmap) folder)
 - ✅️ React 18
 - ✅️ Tailwind CSS 3
 - ✅️ TypeScript
@@ -15,19 +15,28 @@ Next.js template with TypeScript and Tailwind CSS
 - ✅️ Prettier — Format your CSS and assets
 - ✅️ No Prettier on JS/TS code! — Use ESLint + [Airbnb Style](https://github.com/airbnb/javascript) instead and
   get full control over the code style
-- ✅️ EditorConfig - Consistent indents across editors and IDEs
+- ✅️ EditorConfig — Consistent indents across editors and IDEs
 - ✅️ Path Mapping — Import components or images using the @ prefix
 - ✅️ Docker Ready
+- ✅️ Useful libs — [clsx](https://github.com/lukeed/clsx) and [lodash](https://lodash.com)
 - ✅️ API Ready — Request and cache your API with axios and SWR
-- ✅️ Useful libs like [clsx](https://github.com/lukeed/clsx) and [lodash](https://lodash.com)
-
-## Requirements
-
-- Minimum Node.js version: 14.18.0
 
 ## Steps
 
 - [Steps to recreate this template](docs/steps.md)
+
+_Next steps you may do:_
+
+- [Testing](docs/next-steps/testing.md)
+- [Component Libraries](docs/next-steps/component-libraries.md)
+- [State Management](docs/next-steps/state-management.md)
+- [Storybook](docs/next-steps/storybook.md)
+- [SEO](docs/next-steps/seo.md)
+- [Translation](docs/next-steps/translation.md)
+- [Commit Convention](docs/next-steps/commit-convention.md)
+- [Deployment](docs/next-steps/deployment.md)
+- [Keep Dependencies Up-To-Date](docs/next-steps/keep-dependencies-up-to-date.md)
+- [More VSCode Extensions](docs/next-steps/vscode-extensions.md)
 
 ## More Resources
 
@@ -49,6 +58,10 @@ Some description about the app.
   > Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
 
 ## Build Setup
+
+### Requirements
+
+- Minimum Node.js version: 14.18.0
 
 ### Installation
 
