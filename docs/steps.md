@@ -131,6 +131,15 @@
     }
     ```
 
+  > Some people decide to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+  > to make ESLint and Prettier work together  
+  > (See [Next.js Usage With Prettier](https://nextjs.org/docs/basic-features/eslint#prettier)
+  > and [Prettier: Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html)).
+  > \
+  > \
+  > We didn't do it in this template because Prettier is very strict and we want to keep some freedom.
+  > We use Prettier on CSS and assets files but not on Code files.
+
 - Tailwind CSS:
 
   - [Install Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs).
