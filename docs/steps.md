@@ -64,12 +64,6 @@
   git mv src/styles/Home.module.css src/styles/Home.module.scss
   ```
 
-- Tailwind CSS:
-
-  - [Install Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs).
-  - In `tailwind.config.js` make sure you use the paths `./src/app/...` and `./src/components/...`
-  - Install formatter for Tailwind classes: [Tailwind CSS Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
-
 - Stylelint:
 
   - Install [Stylelint](https://stylelint.io/user-guide/get-started) with `stylelint-config-standard-scss`
@@ -136,6 +130,12 @@
       "editor.formatOnSave": true
     }
     ```
+
+- Tailwind CSS:
+
+  - [Install Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs).
+  - In `tailwind.config.js` make sure you use the paths `./src/app/...` and `./src/components/...`
+  - Install formatter for Tailwind classes: [Tailwind CSS Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
 - Install [clsx](https://github.com/lukeed/clsx) to toggle classes. See [Next.js Styling Tips](https://nextjs.org/learn/basics/assets-metadata-css/styling-tips)
 - Install [axios](https://github.com/axios/axios) and [SWR](https://swr.vercel.app), and set api architecture
