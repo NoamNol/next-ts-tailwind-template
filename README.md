@@ -15,10 +15,11 @@ Next.js template with TypeScript, Tailwind, best linters and more.
 - ✅️ Prettier — Format your CSS and assets
 - ✅️ No Prettier on JS/TS code! — Use ESLint + [Airbnb Style](https://github.com/airbnb/javascript) instead and
   get full control over the code style
-- ✅️ EditorConfig — Consistent indents across editors and IDEs
 - ✅️ Path Mapping — Import components or images using the @ prefix
-- ✅️ Docker Ready
 - ✅️ Useful libs — [clsx](https://github.com/lukeed/clsx) and [lodash](https://lodash.com)
+- ✅️ Docker Ready
+- ✅️ VSCode Ready
+- ✅️ EditorConfig — Consistent indents across editors and IDEs
 - ✅️ API Ready — Request and cache your API with axios and SWR
 
 ## Steps
@@ -128,3 +129,17 @@ Use the `Extensions: Show Recommended Extensions` command to see the recommended
 ### Browser extension
 
 [React Developer Tools](https://react.dev/learn/react-developer-tools)
+
+## Debugging
+
+### VSCode Debugging
+
+Select `Next: Full` in the debugger drop-down menu, and start debugging by clicking on
+the green arrow or pressing `F5` (don't run `npm run dev` in the same time).
+\
+\
+If your server is already running (with `npm run dev`), you can start the client-only debugger by selecting `Next: Chrome` in the drop-down menu.
+
+## Contributing
+
+Don't (:
