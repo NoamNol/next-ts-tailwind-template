@@ -4,12 +4,12 @@ Next.js template with TypeScript, Tailwind, best linters and more.
 
 ## Features
 
-- ✅️ Next.js 13 (with the new [`app`](https://beta.nextjs.org/docs/app-directory-roadmap) folder)
+- ✅️ Next.js 13 (with the new [`app`](https://nextjs.org/docs/app) folder)
 - ✅️ React 18
 - ✅️ Tailwind CSS 3
 - ✅️ TypeScript
 - ✅️ SCSS
-- ✅️ [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css) (Next.js built-in)
+- ✅️ CSS Modules (Next.js built-in)
 - ✅️ ESLint — Find and fix problems in your code
 - ✅️ Stylelint — Find and fix problems in your CSS
 - ✅️ Prettier — Format your CSS and assets
@@ -45,18 +45,21 @@ _Next steps you may do:_
 - [superplate](https://pankod.github.io/superplate/) (and [refine](https://refine.dev/) optionally)
 - [Vercel: Next.js App Playground](https://vercel.com/templates/next.js/app-directory)
 
+<br />
+<br />
+
 ---
 
-# App Title
+# My App Title
 
-Some description about the app.
+Some description about my app.
 
 ## Main Technologies
 
-- [Next.js](https://nextjs.org)
-  > React framework for production.
+- [Next.js](https://nextjs.org) + TypeScript
 - [Tailwind CSS](https://tailwindcss.com)
-  > Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
+- [SCSS](https://sass-lang.com/) +
+  [CSS Modules](https://nextjs.org/docs/pages/building-your-application/styling/css-modules)
 
 ## Build Setup
 
@@ -102,7 +105,7 @@ npm run lint:fix
 
 ## API
 
-[Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers) can be accessed on `/api/*`, like [/api/posts](http://localhost:3000/api/posts).  
+[Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) can be accessed on `/api/*`, see [`/api/posts`](http://localhost:3000/api/posts) for example.  
 This endpoint can be edited in `src/app/api/posts/route.ts`.
 
 ## Docker
@@ -136,8 +139,8 @@ Use the `Extensions: Show Recommended Extensions` command to see the recommended
 
 Select `Next: Full` in the debugger drop-down menu, and start debugging by clicking on
 the green arrow or pressing `F5` (don't run `npm run dev` in the same time).
-\
-\
+<br />
+<br />
 If your server is already running (with `npm run dev`), you can start the client-only debugger by selecting `Next: Chrome` in the drop-down menu.
 
 ## Contributing

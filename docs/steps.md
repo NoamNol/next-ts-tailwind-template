@@ -67,7 +67,7 @@
 - Stylelint:
 
   - Install [Stylelint](https://stylelint.io/user-guide/get-started) with `stylelint-config-standard-scss`
-  - Add [Stylelint VSCode extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+  - Install [Stylelint VSCode extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
   - Config VSCode to auto-fix Stylelint problems in `.vscode/settings.json`:
     ```json
     {
@@ -122,7 +122,7 @@
 
   - Install [Prettier](https://prettier.io/) with `npm install --save-dev --save-exact prettier`
   - Add `.prettierrc.js` and `.prettierignore` files
-  - Add [Prettier VSCode extension](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.prettier-vscode)
+  - Install [Prettier VSCode extension](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.prettier-vscode)
   - Config VSCode to auto-format CSS files with Prettier in `.vscode/settings.json`:
     ```json
     "[css][scss]": {
@@ -135,8 +135,7 @@
   > to make ESLint and Prettier work together  
   > (See [Next.js Usage With Prettier](https://nextjs.org/docs/basic-features/eslint#prettier)
   > and [Prettier: Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html)).
-  > \
-  > \
+  > <br /><br />
   > We didn't do it in this template because Prettier is very strict and we want to keep some freedom.
   > We use Prettier on CSS and assets files but not on Code files.
 
