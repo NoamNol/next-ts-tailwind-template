@@ -30,6 +30,7 @@ _Next steps you may do:_
 
 - [Testing](docs/next-steps/testing.md)
 - [Component Libraries](docs/next-steps/component-libraries.md)
+- [Data Fetching Management](docs/next-steps/fetching-management.md)
 - [State Management](docs/next-steps/state-management.md)
 - [Storybook](docs/next-steps/storybook.md)
 - [SEO](docs/next-steps/seo.md)
