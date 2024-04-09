@@ -42,7 +42,7 @@ _Next steps you may do:_
 ## More Resources
 
 - [Create T3 App](https://create.t3.gg/)
-- [superplate](https://pankod.github.io/superplate/)
+- [superplate](https://pankod.github.io/superplate/) (and [refine](https://refine.dev/) optionally)
 - [Vercel: Next.js App Playground](https://vercel.com/templates/next.js/app-directory)
 
 ---
