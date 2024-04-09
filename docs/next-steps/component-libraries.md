@@ -2,7 +2,7 @@
 
 - [Chakra UI](https://chakra-ui.com/)
 - [Mantine](https://mantine.dev/)
-- [MUI](https://mui.com/)
+- [Material UI (MUI)](https://mui.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
 - [Radix UI](https://www.radix-ui.com/)
 - [React Bootstrap](https://react-bootstrap.github.io/)
