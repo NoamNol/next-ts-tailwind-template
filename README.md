@@ -66,7 +66,7 @@ Some description about my app.
 
 ### Requirements
 
-- Minimum Node.js version: 14.18.0
+- Minimum Node.js version: 18.17
 
 ### Installation
 
