@@ -39,6 +39,7 @@ _Next steps you may do:_
 - [Deployment](docs/next-steps/deployment.md)
 - [Keep Dependencies Up-To-Date](docs/next-steps/keep-dependencies-up-to-date.md)
 - [More VSCode Extensions](docs/next-steps/vscode-extensions.md)
+- [Upgrading Next.js](https://nextjs.org/docs/app/building-your-application/upgrading)
 
 ## More Resources
 
