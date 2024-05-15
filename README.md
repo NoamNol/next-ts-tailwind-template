@@ -111,18 +111,17 @@ This endpoint can be edited in `src/app/api/posts/route.ts`.
 
 ## Docker
 
-Build and run docker (listen on port 3001):
+1. [Install Docker](https://docs.docker.com/get-docker/) on your machine
+2. Build your container: `docker build -t nextjs-app:latest . -f docker/Dockerfile`
+3. Run your container: `docker run -d -p 3001:3000 --name the-nextjs-app nextjs-app:latest`
 
-```bash
-docker build -t nextjs-app:latest . -f docker/Dockerfile
-docker run -d -p 3001:3000 --name the-nextjs-app nextjs-app:latest
-```
-
-Or with docker-compose:
+Or build and run with [Docker Compose](https://docs.docker.com/compose/):
 
 ```bash
 docker-compose -f docker/docker-compose.yml --env-file docker/docker-compose.env -p nextjs-app up -d
 ```
+
+And visit [localhost:3001](http://localhost:3001)
 
 ## Development Tools
 
