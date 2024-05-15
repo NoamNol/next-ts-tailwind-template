@@ -4,7 +4,7 @@ Next.js template with TypeScript, Tailwind, best linters and more.
 
 ## Features
 
-- ✅️ Next.js 13 (with the new [`app`](https://nextjs.org/docs/app) folder)
+- ✅️ Next.js 14 (with the new [`app`](https://nextjs.org/docs/app) folder)
 - ✅️ React 18
 - ✅️ Tailwind CSS 3
 - ✅️ TypeScript
