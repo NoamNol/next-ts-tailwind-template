@@ -1,16 +1,14 @@
 {
-	// About workspace recommendations: https://go.microsoft.com/fwlink/?LinkId=827846
+  // About workspace recommendations: https://go.microsoft.com/fwlink/?LinkId=827846
 
-	"recommendations": [
-		"editorconfig.editorconfig",
-		"dbaeumer.vscode-eslint",
-		"stylelint.vscode-stylelint",
-		"esbenp.prettier-vscode",
-		"bradlc.vscode-tailwindcss",
-	],
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss"
+  ],
 
-	// Extensions recommended by VS Code that should not be recommended
-	"unwantedRecommendations": [
-
-	]
+  // Extensions recommended by VS Code that should not be recommended
+  "unwantedRecommendations": []
 }
