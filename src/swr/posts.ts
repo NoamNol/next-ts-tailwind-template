@@ -1,5 +1,5 @@
 import useSWR from 'swr'
-import { createGETApiEndpoint } from '@/lib/api/endpointGenerators'
+import { createGETApiEndpoint } from '@/swr/endpointGenerators'
 import type { Post } from '@/lib/models/post'
 
 /**

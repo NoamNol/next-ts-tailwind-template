@@ -1,6 +1,6 @@
 'use client'
 
-import { usePosts } from '@/lib/api/posts'
+import { usePosts } from '@/swr/posts'
 import type { NextPage } from 'next'
 
 const PostsPage: NextPage = () => {

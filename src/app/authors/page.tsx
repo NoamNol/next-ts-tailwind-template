@@ -1,6 +1,6 @@
 'use client'
 
-import { useAuthors } from '@/lib/api/authors'
+import { useAuthors } from '@/swr/authors'
 import type { NextPage } from 'next'
 
 const AuthorsPage: NextPage = () => {
