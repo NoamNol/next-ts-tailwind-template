@@ -1,8 +1,8 @@
 # Steps:
 
-- Init Next.js with `npx create-next-app@latest --ts` (See [Next.js with TypeScript](https://nextjs.org/docs/basic-features/typescript))
+- Init Next.js with `npx create-next-app@latest --ts` (See [Next.js with TypeScript](https://nextjs.org/docs/pages/building-your-application/configuring/typescript))
 
-  > Also see [Next.js Upgrade Guide](https://nextjs.org/docs/upgrading)
+  > Also see [Next.js Upgrade Guide](https://nextjs.org/docs/pages/building-your-application/upgrading)
 
 - Move code to `src` folder and add `@` paths
 
@@ -56,7 +56,7 @@
   }
   ```
 
-- Add [Sass Support](https://nextjs.org/docs/basic-features/built-in-css-support#sass-support)
+- Add [Sass Support](https://nextjs.org/docs/pages/building-your-application/styling/sass)
   with `npm install sass`, and rename `.css` files to `.scss`
 
   ```bash
@@ -133,7 +133,7 @@
 
   > Some people decide to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
   > to make ESLint and Prettier work together  
-  > (See [Next.js Usage With Prettier](https://nextjs.org/docs/basic-features/eslint#prettier)
+  > (See [Next.js Usage With Prettier](https://nextjs.org/docs/pages/building-your-application/configuring/eslint#prettier)
   > and [Prettier: Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html)).
   > <br /><br />
   > We didn't do it in this template because Prettier is very strict and we want to keep some freedom.
@@ -145,11 +145,11 @@
   - In `tailwind.config.js` make sure you use the paths `./src/app/...` and `./src/components/...`
   - Install formatter for Tailwind classes: [Tailwind CSS Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
-- Install [clsx](https://github.com/lukeed/clsx) to toggle classes. See [Next.js Styling Tips](https://nextjs.org/learn/basics/assets-metadata-css/styling-tips)
+- Install [clsx](https://github.com/lukeed/clsx) to toggle classes. See [Next.js Styling Tips](https://nextjs.org/learn-pages-router/basics/assets-metadata-css/styling-tips)
 - Install [axios](https://github.com/axios/axios) and [SWR](https://swr.vercel.app), and set api architecture
 
 - Install [lodash](https://lodash.com) with `npm install lodash` and `npm install --save-dev @types/lodash`
 
-- Add [.env files](https://nextjs.org/docs/basic-features/environment-variables)
+- Add [.env files](https://nextjs.org/docs/pages/building-your-application/configuring/environment-variables)
 
 - Add Dockerfile and docker-compose.yml
