@@ -57,7 +57,7 @@
   ```
 
 - Add [Sass Support](https://nextjs.org/docs/pages/building-your-application/styling/sass)
-  with `npm install sass`, and rename `.css` files to `.scss`
+  with `npm install --save-dev sass`, and rename `.css` files to `.scss`
 
   ```bash
   git mv src/styles/globals.css src/styles/globals.scss
