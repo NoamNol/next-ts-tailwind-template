@@ -29,7 +29,8 @@ COPY . .
 # Comment the following line in case you want to enable telemetry during the build.
 ENV NEXT_TELEMETRY_DISABLED 1
 
-# Use the corresponding env file for each environment
+# To use the corresponding env file for each environment,
+# the user can override .env.production with another .env file
 ARG DOT_ENV_PRODUCTION_FILE=.env.production
 COPY ${DOT_ENV_PRODUCTION_FILE} .env.production
 
