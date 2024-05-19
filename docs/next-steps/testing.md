@@ -1,7 +1,7 @@
 # Testing
 
 - [Jest](https://jestjs.io/)
-- [Testing Library](https://testing-library.com/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ## E2E Testing
 
