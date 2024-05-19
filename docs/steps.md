@@ -1,6 +1,6 @@
 # Steps:
 
-- Init Next.js with `npx create-next-app@latest --ts` (See [Next.js with TypeScript](https://nextjs.org/docs/pages/building-your-application/configuring/typescript))
+- Init Next.js with `npx create-next-app@latest` (See [Next.js with TypeScript](https://nextjs.org/docs/pages/building-your-application/configuring/typescript))
 
   > Also see [Next.js Upgrade Guide](https://nextjs.org/docs/pages/building-your-application/upgrading)
 
