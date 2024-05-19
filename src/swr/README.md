@@ -2,7 +2,7 @@
 
 We use [axios](https://github.com/axios/axios) client for the api calls, and [SWR](https://swr.vercel.app) to cache the results and to use the api with React hooks.
 
-The most basic api example would be something like this:
+The most basic example would be something like this:
 
 ```javascript
 import useSWR from 'swr'
@@ -70,7 +70,7 @@ const getPost = {
 ### When the parameter is not ready
 
 > SWR will not start the request if the `key` function throws or returns a falsy value , or if `key` is null  
-> (From [SWR Conditional Fetching](https://swr.vercel.app/docs/conditional-fetching))
+> (See [SWR Conditional Fetching](https://swr.vercel.app/docs/conditional-fetching))
 
 We can use this behavior for api parameters that are not ready:
 
@@ -99,7 +99,7 @@ export function usePost(arg) {
     getPost.data(nArg),
   )
 
-  // Option 3 (recommended): the same as Option 2 but with shorter syntax
+  // Option 3 (recommended): same as Option 2 but with shorter syntax
   const { data, error } = useSWR(nArg && getPost.key(nArg), () =>
     getPost.data(nArg),
   )

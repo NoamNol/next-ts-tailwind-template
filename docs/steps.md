@@ -146,7 +146,10 @@
   - Install formatter for Tailwind classes: [Tailwind CSS Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
 - Install [clsx](https://github.com/lukeed/clsx) to toggle classes. See [Next.js Styling Tips](https://nextjs.org/learn-pages-router/basics/assets-metadata-css/styling-tips)
-- Install [axios](https://github.com/axios/axios) and [SWR](https://swr.vercel.app), and set api architecture
+
+- Install [axios](https://github.com/axios/axios) and [SWR](https://swr.vercel.app), and set API Layer architecture
+
+  > Use SWR only if you need client side querying
 
 - Install [lodash](https://lodash.com) with `npm install lodash` and `npm install --save-dev @types/lodash`
 
